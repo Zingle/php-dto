@@ -1,0 +1,28 @@
+{
+    "name": "zingle-com/dto",
+    "description": "Simple DTOs",
+    "license": "MIT",
+    "authors": [{
+        "name": "Zingle",
+        "homepage": "https://github.com/Zingle/php-dto"
+    },{
+        "name": "Zachary Quintana",
+        "homepage": "https://github.com/zquintana"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "phootwork/collection": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.3",
+        "escapestudios/symfony2-coding-standard": "^3.9",
+        "php-coveralls/php-coveralls": "^2.1",
+        "doctrine/common": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZingleCom\\DTO\\Tests\\": "tests",
+            "ZingleCom\\DTO\\": "src"
+        }
+    }
+}
