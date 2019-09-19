@@ -47,7 +47,7 @@ class SomeModelDTO implements Transmittable
 }
 
 // ... later you can do 
-// image $someModel is instantiated somewhere else
+// imagine $someModel is instantiated somewhere else
 $resolver = new Resolver();
 $data = $resolver->resolve(new SomeModelDTO($someModel)); 
 
