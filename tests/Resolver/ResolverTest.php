@@ -1,6 +1,6 @@
 <?php
 
-namespace ZingleCom\DTO\Test;
+namespace ZingleCom\DTO\Test\Resolver;
 
 use PHPUnit\Framework\TestCase;
 use ZingleCom\DTO\Model\CollectionDTO;

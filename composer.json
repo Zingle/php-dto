@@ -27,6 +27,7 @@
     },
     "scripts": {
         "test": "./vendor/bin/phpunit",
+        "test-no-coverage": "@test --no-coverage",
         "check-standards": "./vendor/bin/phpcs -p",
         "test-all": [
             "@check-standards",
