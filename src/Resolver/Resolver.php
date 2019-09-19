@@ -14,7 +14,7 @@ use ZingleCom\DTO\Model\TransmittableInterface;
 class Resolver
 {
     /**
-     * @param \ZingleCom\DTO\Model\TransmittableInterface $transmittable
+     * @param TransmittableInterface $transmittable
      * @param bool                   $isHal
      *
      * @return array
