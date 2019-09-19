@@ -10,8 +10,7 @@ install:
     - composer install
 
 script:
-    - ./vendor/bin/phpcs -p
-    - php bin/phpunit
+    - composer run-script test-all
 
 after_success:
     - travis_retry php vendor/bin/php-coveralls -v

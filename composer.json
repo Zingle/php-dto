@@ -24,5 +24,13 @@
             "ZingleCom\\DTO\\Tests\\": "tests",
             "ZingleCom\\DTO\\": "src"
         }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit",
+        "check-standards": "./vendor/bin/phpcs -p",
+        "test-all": [
+            "@check-standards",
+            "@test"
+        ]
     }
 }
