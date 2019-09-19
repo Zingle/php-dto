@@ -1,6 +1,9 @@
 Data Transfer Objects
 =====================
 
+[![Build Status](https://travis-ci.com/Zingle/php-dto.svg?branch=master)](https://travis-ci.com/Zingle/php-dto)
+[![Coverage Status](https://coveralls.io/repos/github/Zingle/php-dto/badge.svg?branch=master)](https://coveralls.io/github/Zingle/php-dto?branch=master)
+
 Simple library for creating and serializing DTO trees.
 
 ## Why?
