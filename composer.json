@@ -10,7 +10,7 @@
         "homepage": "https://github.com/zquintana"
     }],
     "require": {
-        "php": ">=7.1",
+        "php": ">=7.2",
         "phootwork/collection": "^1.6"
     },
     "require-dev": {
